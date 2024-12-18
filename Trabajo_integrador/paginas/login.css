@@ -1,0 +1,74 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aqua;
+    background-image: linear-gradient(rgba(27, 117, 117,0.6),rgba(153, 248, 248,0.6));
+}
+.Principio{
+    padding: 60px;
+    background-image: url(../Publico/Imagenes/fondo-registro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    color: azure;
+}
+.div-Bienvenida{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: blue;
+    background-image: linear-gradient(rgba(103, 103, 214, 0.8),rgba(39, 39, 224, 0.5));
+}
+.div-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.div-navbar a{
+    font-size: 24px;
+    margin: 20px;
+    text-decoration: none;
+    color: azure;
+    margin-top: 20px;
+}
+a:hover{
+    padding: 5px;
+    background: #2373db;
+    color: azure;
+    border-radius: 7px;
+}
+form{
+    padding: 45px;
+    height: 100px;
+    background-color: #a8dadc;
+    border: 5px outset #2373db;
+    text-align: center;
+    height: 70vh;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    border: 7px double blue;
+}
+label{
+    background-color: #2373db;
+    color: azure;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+input{
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+input [type="reset"]:hover{
+    background-color: aquamarine;
+    font-size: 20px;
+
+}
+input [type="submit"]:hover{
+    background-color: aquamarine;
+    font-size: 20px;
+}

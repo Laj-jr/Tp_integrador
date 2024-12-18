@@ -1,0 +1,80 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(Recursos/images.jpeg), linear-gradient(
+      to right,
+      rgba(255, 166, 0, 0.349),
+      rgba(255, 99, 71, 0.692)
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 2px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+  }
+  
+  a:hover {
+    background-color: rgb(113, 113, 238); /* Fondo gris suave */
+    color: #333; /* Color de texto negro */
+  }
+
+  .container {
+    max-width: 1200px;
+    width: 100%;
+  }
+  .table-responsive {
+    margin-top: 20px;
+    background-color: #e0e0e0; /* Fondo gris suave */
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  table {
+    background-color: #fff; /* Fondo blanco para la tabla */
+    border-radius: 8px; /* Bordes redondeados */
+  }
+  
+  th, td {
+    text-align: center;
+  }
+  th {
+    background-color: #343a40;
+    color: white;
+    margin: 4px;
+    border-radius: 4px;
+  }
+  
+  td {
+    font-size: 14px;
+  }
+  
+  button {
+    margin: 0 5px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: white;
+  }
+  
+  /* Responsividad: hacer que la tabla sea desplazable en pantallas pequeñas */
+  @media (max-width: 768px) {
+    .table-responsive {
+      -webkit-overflow-scrolling: touch;
+      overflow-x: auto;
+    }
+  }
+  
